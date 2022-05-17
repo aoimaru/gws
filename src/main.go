@@ -10,7 +10,7 @@ import (
 func main() {
 	fmt.Println(lib.Test())
 	r := gin.Default()
-	r.GET("/", func(c *gin.Context) {
+	r.GET("/hello", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "pong",
 		})

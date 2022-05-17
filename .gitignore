@@ -23,4 +23,4 @@ go.work
 dist/
 
 
-src/temp/
+src/tmp/

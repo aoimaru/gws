@@ -10,3 +10,8 @@ services:
     volumes:
       - ./src/:/go/src
     tty: true
+    # logging:
+    #   driver: "fluentd"
+    #   options:
+    #     fluentd-address: "localhost:24224"
+    #     tag: "docker.{{.Name}}"
